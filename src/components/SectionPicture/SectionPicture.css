@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&family=Open+Sans&display=swap');
+
+.container-picture {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin: 5px 10px;
+}
+
+.red-inst {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+.ht-picture{
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+}
+.images-total {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: min-content;
+  height: min-content;
+  place-items: center;
+  gap: 2px;
+}
+
+.images-total img {
+    width: 200px;
+    height: 200px;
+}

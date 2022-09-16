@@ -5,19 +5,18 @@ import umbrella_icon from "../../assets/umbrella_icon.png";
 
 export const SectionUmbrella = () => {
   return (
-    // style="max-width: 540px;"
     <section className="container-rain">
       <div className="card mb-3">
         <div className="row g-0">
           <div className="col-md-4 position-relative">
-            <button className="btn-shop-rain  position-absolute top-50 start-50">
-              SHOP
-            </button>
             <img
               src={umbrellapeople}
               className="img-fluid rounded-start imgRain"
               alt="umbrella"
             />
+            <button className="btn-shop-rain  position-absolute top-50 start-50">
+              SHOP
+            </button>
           </div>
           <div className="col-md-8">
             <div className="card-body text-card">

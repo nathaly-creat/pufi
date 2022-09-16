@@ -6,11 +6,11 @@
 }
 .imgRain {
   width: 100% !important;
+  height: 100% !important;
 }
-
 .btn-shop-rain {
   border: 2px solid #fff;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.527);
   width: 140px;
   font-size: 24px;
   color: white;
@@ -32,7 +32,6 @@ hr {
   margin: auto;
   background-color: black;
 }
-
 .text-muted:hover {
   background-color: transparent !important;
   color: #888;

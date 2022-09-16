@@ -1,50 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&family=Open+Sans&display=swap');
+
 .container-Form {
     display: flex;
     flex-direction: column;
     place-items: center;
-}
-
-.images-total {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+    line-height: 0.6;
+    margin-top: 40px;
 }
 .input-group {
+    position: relative;
     display: flex;
-    align-items: center;
-    place-content: center;
-  }
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    margin-left: 50%;
   
-  .input {
-    min-height: 50px;
-    max-width: 150px;
-    padding: 0 1rem;
-    color: #fff;
-    font-size: 15px;
-    border: 1px solid #5e4dcd;
-    border-radius: 6px 0 0 6px;
+}
+fieldset {
+    border: solid 1px black;
+    padding-right: 10px;
+    margin-left: 70px;;
+}
+.input {
+    text-decoration: none;
     background-color: transparent;
-  }
-  
-  .button--submit {
-    min-height: 50px;
-    padding: .5em 1em;
-    border: none;
-    border-radius: 0 6px 6px 0;
-    background-color: #5e4dcd;
-    color: #fff;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background-color .3s ease-in-out;
-  }
-  
-  .button--submit:hover {
-    background-color: #5e5dcd;
-  }
-  
-  .input:focus, .input:focus-visible {
-    border-color: #3898EC;
+    border: transparent;
     outline: none;
-  }
-
-
-  
+    width: 500px;
+    height: 40px;
+    padding: 15px;
+}
+.newLetter {
+    font-size: 14px;
+    color: rgba(136, 136, 136, 0.685);
+    font-family: 'Open Sans', sans-serif;
+}
+.subscribe {
+    font-size: 44px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+small {
+    font-size: 8px;
+    color: black;
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+}

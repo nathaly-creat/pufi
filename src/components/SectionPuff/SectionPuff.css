@@ -6,8 +6,17 @@
 .container-imagPuff {
   display: flex;
   
+  
 }
 .imgPuff {
-  width: 350px;
-  height: 350px;
+  width: 650px;
+  height: 450px;
+}
+.container-imagPuff {
+  width: 40%;
+  height: 40%;
+  /* background-color: red; */
+}
+.container-imagPuff button {
+ margin-left: 310px;
 }

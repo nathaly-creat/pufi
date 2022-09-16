@@ -11,7 +11,7 @@ export const SectionCart = () => {
       <div className="card mb-3">
         <div className="row g-0">
           <div className="col-md-4 position-relative">
-            <button className="btn-shop-rain  position-absolute top-50 start-50">
+            <button className="btn-shop-rain position-absolute top-50 start-50">
               SHOP
             </button>
             <img

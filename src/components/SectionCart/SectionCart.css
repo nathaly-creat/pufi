@@ -1,0 +1,14 @@
+.container-rain {
+display: flex;
+flex-direction: row;
+}
+
+.btn-shop-puff {
+    border: 2px solid #fff;
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 140px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 500px;
+  }
