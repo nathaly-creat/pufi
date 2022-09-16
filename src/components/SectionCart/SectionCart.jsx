@@ -1,12 +1,10 @@
 import React from "react";
-
 import "./SectionCart.css";
 import child_bag_mall from "../../assets/child_bag_mall.jpg";
 import shopping_icon from "../../assets/shopping_icon.png";
 
 export const SectionCart = () => {
   return (
-    // style="max-width: 540px;"
     <section className="container-rain">
       <div className="card mb-3">
         <div className="row g-0">

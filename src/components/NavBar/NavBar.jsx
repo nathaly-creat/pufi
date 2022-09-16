@@ -3,7 +3,6 @@ import puf from "../../assets/puf.png";
 import umbrella from "../../assets/umbrella.png";
 import nap from "../../assets/nap.png";
 import bolsa from "../../assets/bolsa.png";
-// import { Link } from "react-router-dom";
 import { Col } from "antd";
 import "./Navbar.css";
 
@@ -14,9 +13,6 @@ export const NavBar = () => {
         <nav className="nav-bar navigation container-navbar">
           <div className="container-logo">
             <p className="nameLogo">Pufi</p>
-            {/* <Link to="/" className="nameLogo">
-            Pufi
-          </Link> */}
           </div>
           <section className="menu">
             <div className="menu-nav cont1">

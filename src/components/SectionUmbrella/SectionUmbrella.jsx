@@ -30,9 +30,6 @@ export const SectionUmbrella = () => {
               <p className="card-text">
                 No pierdas tu estilo en días de lluvia.
               </p>
-              {/* <p className="card-text">
-                <p className="text-muted"> VER MAS </p>
-              </p> */}
               <button className="learn-more">
                 <span className="circle" aria-hidden="true">
                   <span className="icon arrow"></span>
