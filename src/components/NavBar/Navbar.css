@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&family=Open+Sans&display=swap');
+
+
+.container-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;  
+    /* background-color: green; */
+    gap: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px #888888;
+    /* background-image: url(https://res.cloudinary.com/dtaq1ip2g/image/upload/v1663271820/puff_playa_vrviav.jpg);
+    background-repeat: no-repeat;
+    height: 80vh; */
+}
+.nameLogo {
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 40px;
+    /* margin-top: 5px; */
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+.cont1,
+.cont2,
+.cont3,
+.cont4 {
+    border-right: 2px solid black ;
+
+} 
+img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2px;
+}
+
+.menu-nav {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    place-items: center;
+}
+a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin: 0px 10px;
+    color: black;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+} 
+.menu-cart-select{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    place-content: center;
+    /* align-items: baseline; */
+    font-family: 'Nunito', sans-serif;
+    left: 30px;
+    width: 200px;
+}
+select {
+    background: transparent;
+    font-family: "Poppins", sans-serif;
+    /* font-size: 10px; */
+    font-weight: bold;
+}
+.form-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-size: 0.8rem;
+   border: none;
+}
+.menu-cart-select p {
+    font-size: 0.8rem;
+}

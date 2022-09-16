@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&family=Open+Sans&display=swap');
+
+
+
+.img-slice {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    z-index: -1;
+}
+.carousel-inner {
+    place-items: center;
+}
+.btn-shop {
+    border: 2px solid #fff;
+    background-color: transparent;
+    width: 140px;
+    font-size: 24px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-shop:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.text-slice {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    color: black
+}

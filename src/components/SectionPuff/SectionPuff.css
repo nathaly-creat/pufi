@@ -1,0 +1,13 @@
+.container-puff .card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container-imagPuff {
+  display: flex;
+  
+}
+.imgPuff {
+  width: 350px;
+  height: 350px;
+}
